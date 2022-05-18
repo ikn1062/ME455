@@ -1,5 +1,7 @@
-# Active Learning and Control Applications in Robotics
+# Particle and Kalman Filters
 
-This repository contains some of the control and active learning assignments as part of the Northwestern Active Learning in Robotics course. 
+Particle filters:
+* A particle filter was implemented to estimate the positon of an object moving along a trajectory with observations and control signals that produce noise
 
-A description of each of the assignments is shown below:
+Kalman Filter:
+* A kalman filter was implemented based on Wikipedia's algorithm, used to estimate the position of a trajectory with control and positional noise.
