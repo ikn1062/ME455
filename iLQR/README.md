@@ -1,5 +1,5 @@
-# Active Learning and Control Applications in Robotics
+# iLQR (iterative Linear Quadratic Control
 
-This repository contains some of the control and active learning assignments as part of the Northwestern Active Learning in Robotics course. 
+Implemented an iLQR algorithm for a particular trajectory to find an optimal version of the trajectory. 
 
-A description of each of the assignments is shown below:
+This method employed a runge-kutta 4th order integral method to estimate the next steps of the trajectory based on the control signal and input. It also employed gradient descent to find the most optimal trajectory, with the armijo line search to determine how far along the line to move during descent. 
