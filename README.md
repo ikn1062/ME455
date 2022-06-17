@@ -15,3 +15,10 @@ iLQR:
 Particle and Kalman Filters
 * Created state estimations for observations along a given trajectory through a particle filter
 * Implemented an augmented version of a kalman filter for a particular dynamical system
+
+Ergodicity and infotaxis
+* Created an algorithm to calculate how ergodic a given trajectory was
+* Applied infotaxis (search method for a source) to allow an object find a door in an enclosed environment
+
+Ergodic exploration
+* Generated ergodic trajectories surrounding the origin point
